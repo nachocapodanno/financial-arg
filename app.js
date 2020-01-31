@@ -5,7 +5,8 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 const mongoose = require('mongoose');
-const url = 'mongodb://localhost:27017/financial';
+//const urlDev = 'mongodb://localhost:27017/financial';
+const url = 'mongodb+srv://financial:DW6v1v7y6oE4s2IJ@cluster0-qrdsa.mongodb.net/financial?retryWrites=true&w=majority';
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
